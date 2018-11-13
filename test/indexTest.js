@@ -50,7 +50,7 @@ describe('index.js', () => {
       expect(shortGreeting).to.have.string(firstInitial);
       expect(shortGreeting).to.not.have.string(restOfName);
     });
-
+ok
     it('ends with an exclamation point', () => {
       expect(shortGreeting.substr(-1)).to.eq('!');
     });
